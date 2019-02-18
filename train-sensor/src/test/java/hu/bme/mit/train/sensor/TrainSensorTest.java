@@ -14,6 +14,6 @@ public class TrainSensorTest {
 
     @Test
     public void ThisIsAnExampleTestStub() {
-        // TODO Delete this and add test cases based on the issues
+        assert 5 + 3 == 8;
     }
 }
