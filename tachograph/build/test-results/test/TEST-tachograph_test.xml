@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tachograph_test" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-02-18T15:46:07" hostname="ubuntu" time="0.048">
+  <properties/>
+  <testcase name="Contains_element" classname="tachograph_test" time="0.048"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
