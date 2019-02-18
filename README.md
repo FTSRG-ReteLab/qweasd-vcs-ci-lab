@@ -49,6 +49,7 @@ The figure below illustrates this behavior using an example.
 
 
 ## COMMENTS
- -Was made for RETE laboratory
- -We like **RETE** laboratory
+ * Was made for RETE laboratory
+ * We like **RETE** laboratory
+ ~~Another comment to be sure~~
  
