@@ -43,7 +43,19 @@ public class TrainControllerImpl implements TrainController {
 
 	@Override
 	public void setJoystickPosition(int joystickPosition) {
-		this.step = joystickPosition;		
+		this.step = joystickPosition;
+		referenceSpeed+=step;
+		if (referenceSpeed < 0)
+		{
+			referenceSpeed = 0;
+		} else if (referenceSpeed > speedLimit) {
+			referenceSpeed = speedLimit;
+		}
+		try {
+			Thread.sleep(300);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
